@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: "Josefin Sans";
+  /* background-color: #fffafb; */
+width: 100vw;  
+height: 100%;
+}
+
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+::-webkit-scrollbar {
+  width: 0px;
+}
+.home {
+  position: relative;
+  top: 10px;
+  background: linear-gradient(0deg, black, rgb(44,43,43) );
+}
