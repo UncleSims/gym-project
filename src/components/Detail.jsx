@@ -26,10 +26,9 @@ const Detail = ({ exerciseDetail }) => {
         <div>
           <h3 className="text-3xl font-bold mb-5 capitalize">{name}</h3>
           <h3 className="mt-3 font-light">
-            Working out keeps you fit and healthy. {` `} {name}
-            is one of the many <br />
-            exercises to target your {target}. it will help you feel great and
-            gain energy
+            Working out keeps you fit and healthy. {` `} {name}{` `}
+            is one of the many exercises to target your {target}. it will help you feel great and
+            gain energy.
           </h3>
         </div>
         {extraInfo.map((item) => (

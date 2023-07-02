@@ -5,7 +5,7 @@ const ExerciseVideos = ({ exerciseVideos, name }) => {
 
   console.log(exerciseVideos);
   return (
-    <section className="flex flex-col items-center space-y-7">
+    <section className="flex flex-col items-center gap-y-7">
       <h4 className="mt-12 text-2xl px-4 md:px-0  md:text-3xl font-bold">
         Watch similar <span className="text-red-600">{name}</span> videos
       </h4>
@@ -23,8 +23,8 @@ const ExerciseVideos = ({ exerciseVideos, name }) => {
               src={item.video.thumbnails[0].url}
               alt={item.video.title}
             />
-            <h2 className="mt-4 font-medium text-black">{item.video.title}</h2>
-            <h2 className="mt-2 text-sm font-medium text-black">
+            <h2 className="mt-4 ml-3 md:ml-0 font-medium text-black">{item.video.title}</h2>
+            <h2 className="mt-2 ml:3 md:ml:0 text-sm font-medium text-black">
               {item.video.channelName}
             </h2>
           </a>
