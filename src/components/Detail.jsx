@@ -12,15 +12,15 @@ const Detail = ({ exerciseDetail }) => {
   ];
   return (
     <section className="flex flex-col lg:flex-row p-5 items-center">
-      <div className="w-screen lg:w-7/12 h-[742px]">
-      <img
-        src={gifUrl}
-        alt={name}
-        loading="lazy"
-        className="w-full h-full object-scale-down "
-      />
+      <div className="w-screen h-[70%] lg:w-7/12 lg:h-[742px]">
+        <img
+          src={gifUrl}
+          alt={name}
+          loading="lazy"
+          className="w-full h-full object-scale-down lg:object-contain "
+        />
       </div>
-      
+
       <div className="flex flex-col space-y-10 ml-6 mb-10">
         {" "}
         <div>
@@ -37,9 +37,7 @@ const Detail = ({ exerciseDetail }) => {
             key={item.name}
             className="flex items-center space-x-10 capitalize font-medium text-lg"
           >
-            <div
-             className=" bg-[#fff2db] w-20 h-20 rounded-full flex items-center justify-center"
-             >
+            <div className=" bg-[#fff2db] w-20 h-20 rounded-full flex items-center justify-center">
               <img src={item.icon} alt="" />
             </div>
 
