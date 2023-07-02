@@ -14,7 +14,7 @@ const ExerciseVideos = ({ exerciseVideos, name }) => {
           <a
             href={`https://www.youtube.com/watch?v=${item.video.videoId}`}
             key={index}
-            className="flex flex-col w-11/12 items-center lg:items-start lg:w-[387px] no-underline"
+            className="flex flex-col  lg:w-[387px] no-underline"
             target="_blank"
             rel="noreferrer"
           >
