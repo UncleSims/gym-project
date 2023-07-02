@@ -5,12 +5,12 @@ import Logo from "../assets/images/Logo.png";
 
 const Navbar = () => {
   return (
-    <nav className=" flex px-5  sm:gap-[122px] h-10 items-center  ">
+    <nav className=" flex px-5 sm:gap-[122px] h-10 items-center  ">
       <div className="flex items-center">
         <Link to="/">
-          <img src={Logo} alt="" className="lg:w-12 lg:h-12 my-0 mx-5" />
+          <img src={Logo} alt="" className="hidden lg:block lg:w-12 lg:h-12 lg:my-0 lg:mx-5" />
         </Link>
-        <h2 className="text-2xl lg:text-3xl text-gray-200 font-bold ">
+        <h2 className="text-lg md:text-2xl lg:text-3xl text-gray-200 font-bold ">
           {" "}
           Fitness Junkie
         </h2>
