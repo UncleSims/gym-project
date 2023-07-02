@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const ExerciseCards = ({ exercise }) => {
   return (
     <Link
-      className="flex justify-between flex-col pb-2.5 scale-100 transition-all ease-in-out hover:scale-125  w-[400px] h-[430px] bg-white border-t-4 border-t-[rgb(255,38,37)] rounded-bl-md"
+      className="flex justify-between flex-col pb-2.5 scale-100 transition-all ease-in-out hover:scale-125  w-11/12 h-[430px] bg-white border-t-4 border-t-[rgb(255,38,37)] rounded-bl-md"
       to={`/exercise/${exercise.id}`}
     >
       <div className=" relative h-[326px]">
