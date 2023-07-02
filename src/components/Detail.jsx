@@ -12,7 +12,7 @@ const Detail = ({ exerciseDetail }) => {
   ];
   return (
     <section className="flex flex-col lg:flex-row p-5 items-center">
-      <div className="w-7/12 h-[742px]">
+      <div className="w-screen lg:w-7/12 h-[742px]">
       <img
         src={gifUrl}
         alt={name}
