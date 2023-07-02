@@ -6,6 +6,7 @@ const HeroBanner = () => {
   return (
     <section className="flex items-center h-[582px] lg:h-full lg:items-start lg:pt-[165px] relative">
       <div className="flex flex-col items-center gap-y-10">
+        <div className="pt-10 flex flex-col items-center gap-y-10">
         <h3 className=" w-screen flex justify-center items-center font-bold text-xl text-gray-200 lg:text-5xl">
           Build your body, Transform your mind!
         </h3>
@@ -15,8 +16,10 @@ const HeroBanner = () => {
         >
           See Exercises
         </button>
+        </div>
+        
         <div className="">
-          <h4 className="absolute left-3 bottom-1 font-semibold text-[#ff2625] opacity-10 lg:opacity-10 text-[100px] lg:text-[180px] ">
+          <h4 className="absolute left-3 bottom-1 font-semibold text-[#ff2625] opacity-30 lg:opacity-10 text-[100px] lg:text-[180px] ">
             workout
           </h4>
         </div>

@@ -5,7 +5,7 @@ import Logo from "../assets/images/Logo.png";
 
 const Navbar = () => {
   return (
-    <nav className=" flex px-5 sm:gap-[122px] h-10 items-center  ">
+    <nav className=" flex justify-between px-5 gap-10 sm:gap-[122px] h-10 items-center  ">
       <div className="flex items-center">
         <Link to="/">
           <img src={Logo} alt="" className="hidden lg:block lg:w-12 lg:h-12 lg:my-0 lg:mx-5" />
