@@ -17,7 +17,7 @@ const Detail = ({ exerciseDetail }) => {
         src={gifUrl}
         alt={name}
         loading="lazy"
-        className="w-full h-full object-cover"
+        className="w-full h-full"
       />
       </div>
       
