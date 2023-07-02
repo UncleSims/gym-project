@@ -37,7 +37,7 @@ const Exercises = ({ exercises, setExercises, bodyPart }) => {
   return (
     <>
       {exercises.length > 0 && (
-        <section id="exercises" className=" mt-10 pl-5">
+        <section id="exercises" className="w-screen mt-10 pl-5">
           <h2 className="text-3xl font-bold mb-10">Showing Results</h2>
 
           <div className="flex lg:gap-20 gap-10 flex-wrap justify-center">
